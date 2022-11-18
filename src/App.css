@@ -1,0 +1,51 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 2px solid #d6e4e5;
+  transition: 0.5s;
+  text-indent: 10px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border: 2px solid #393e46;
+}
+
+input::placeholder {
+  color: #d8d8d8;
+  transition: 1s;
+}
+
+input:focus::placeholder {
+  color: #aeaeae;
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 0.3em 0.8em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+button.toggle {
+  background: #b6e2a1;
+}
+button.delete {
+  background: #ff8fb1;
+}
+
+.todo {
+  margin: 15px;
+}
